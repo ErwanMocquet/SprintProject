@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.Header {
+  position: relative;
+  border: none;
+  max-width: 100%;
+  height:min-content;
+  text-align: center;
+}
+.FYTY {
+  font-family: GlacialIndifference-Regular;
+  opacity: 70%;
+  color: gray;
+  position: absolute;
+  top: 34%;
+  left: 35%;
+  transform: (-50%, -50%);
+  font-size: 100px;
+  text-align: center;
+}
+
+h1 a:link {
+  font-family: GlacialIndifference-Regular;
+  float: left;
+  display: block;
+  color: #C2A83E;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 45px;
+  padding: 10px 70px 10px 110px;
+}
+
+h1 a:visited {
+  font-family: GlacialIndifference-Regular;
+  float: left;
+  display: block;
+  color:rgb(92, 5, 92);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 45px;
+  padding: 10px 70px 10px 110px;
+}
+
+h1 a:hover {
+  font-family: GlacialIndifference-Regular;
+  float: left;
+  display: block;
+  color:rgb(128, 1, 39);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 45px;
+  padding: 10px 70px 10px 110px;
+}
+
+#AR {
+  font-family: GlacialIndifference-Regular;
+  text-align: center;
+  font-size: 50px;
+}
+  
+#AboutREUSE {
+  position: relative;
+  width: 650px;
+  height: 500px;
+  float: right;
+  padding-right: 75px;
+  margin: 10px;
+}
+
+#P1 {
+  font-family: GlacialIndifference-Regular;
+  font-size: 20px;
+  position: absolute;
+  text-align: left;
+  line-height: 30px;
+  padding-top: 90px;
+  padding-left: 25px;
+}
+
+.Try {
+  font-family: GlacialIndifference-Bold;
+  font-weight: bold;
+}
+
+#Loc {
+  font-family: GlacialIndifference-Regular;
+  clear: both;
+  float: center;
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 20px;
+  margin: 15px;
+}
+
+#Localisation {
+  clear: right;
+  position: relative;
+  width: 650px;
+  height: 500px;
+  float: left;
+  padding-left: 15px;
+  margin: 10px;
+}
+
+#P2 {
+  float: center;
+  font-family: GlacialIndifference-Regular;
+  font-size: 20px;
+  text-align: left;
+  line-height: 50px;
+  padding-top: 100px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+	background-color: rgb(189, 184, 184);
+	margin-top: 50px;
+	margin-bottom: none;
+}
+
+.a2 {
+	text-decoration: none;
+	color: white;
+	font-family: GlacialIndifference-Regular;
+	margin: 15px;
+	margin-bottom: 20px;
+}
+
+#Kommune {
+  float:right;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.bottomnav a{
+	float: left;
+	padding-top: 30px;
+}
+
+#Instagram {
+  width: 25px;
+	margin: 15px;
+	padding-bottom: 25px;
+  padding-left: 170px;
+  padding-top: 20px;
+}
+#Facebook {
+  height: 40px;
+	margin: 15px;
+	padding-bottom: 18px;
+}
+#AffaldVarme {
+  clear: both;
+  position: absolute;
+  height: 90px;
+	padding-top: 3px;
+}

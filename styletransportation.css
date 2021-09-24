@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#imageheader{
+    margin: 0 auto;
+    position: relative;
+    width: 500px ;
+    height: 250px ;
+}
+.header {
+    width: 100% ;
+    font-family:GlacialIndifference-Bold;
+    position: relative ;
+    text-align: center ;
+    color: white;
+}
+
+.texttrans {
+      position: absolute ;
+      top: 50% ;
+      left: 50% ;
+      transform: translate(-50%,  -50%) ; 
+      font-size: xx-large;
+      color: white;
+      font-family:GlacialIndifference-Bold;
+      font-size: 400%; 
+  }
+
+.font {
+    font-family: GlacialIndifference-Regular;
+}
+
+
+  .bikepick {
+      position: absolute;
+      top: 80%; 
+      right:50%; 
+      height: 150px ; 
+  }
+  .secheading {
+      position:absolute ;
+    font-size:xx-large ; 
+      font-family: "GlacialIndifference-Regular";    
+      right: 70% ;
+      text-shadow: 1px 1px rgb(150, 156, 161) ;
+
+  }
+  .cargobike {
+      font-size: x-large ;
+      font-family: "GlacialIndifference" ;
+      position: absolute;
+      right :70% ;  
+      top: 90% ;   
+  }
+  .button{
+      text-shadow: rgb(35, 35, 37) ;
+      color: rgb(2, 102, 2) ;
+      background: lightgreen;
+      text-size-adjust: large ;
+  }
+  .trailerpick{
+      position: absolute ;
+      right: 30% ;
+      top: 105% ;
+      height: 300px ;
+  }
+  .secheading2 {
+      position: absolute ;
+    font-size :xx-large ; 
+    font-family:  "GlacialIndifference-Bold" ;
+    right: 20% ;
+    top: 90% ;
+    text-shadow: 1px 1px rgb(150, 156, 161) ;
+  }
+  .trailer {
+    font-size: x-large ;
+    font-family: "GlacialIndifference" ;
+    position: absolute ;
+    right:10% ;
+    top: 100% ;
+    line-height: 20px;
+  }
+  .truckpic{
+      position: absolute ;
+      bottom: -90% ;
+      right: 50% ;
+      height: 200px ;
+
+
+  }
+  .secheading3{
+      position: absolute ;
+      font-size: xx-large ;
+      font-family:  "GlacialIndifference-Bold" ;
+      bottom: -60% ;
+      right: 75% ;
+      text-shadow: 1px 1px rgb(150, 156, 161) ;
+
+  }
+  .transcomp {
+      font-size: x-large ;
+      font-family:"GlacialIndifference-Bold" ; 
+      position: absolute ;
+      bottom: -100% ;
+      right: 82% ;
+      line-height: 20px ;
+  }
+  footer {
+	background-color: rgb(189, 184, 184);
+	margin-top: 50px;
+	margin-bottom: none;
+    position:absolute ;
+    bottom: -150% ;
+}
+.a2 {
+	text-decoration: none;
+	color: white;
+	font-family: GlacialIndifference-Regular;
+	margin: 15px;
+	margin-bottom: 20px;
+}
+#Kommune {
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.bottomnav a{
+	float: left;
+	padding-top: 30px;
+}
+#Instagram {
+	margin: 15px;
+	padding-bottom: 25px;
+}
+#Facebook {
+	margin: 15px;
+	padding-bottom: 18px;
+}
+#AffaldVarme {
+	padding-top: 3px;
+}
